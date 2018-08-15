@@ -1,0 +1,189 @@
+html {
+  overflow-y: scroll;
+  overflow-x:hidden;
+}
+
+    body {
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+
+        a {
+          color: #555;
+        }
+
+        #brand {
+          text-transform: uppercase;
+          font-weight: 900;
+        }
+
+        .homePageContainer {
+          padding: 15%;
+          /* border: solid; */
+          position: fixed;
+          top: 0;
+          left: 0;
+          bottom:0;
+          right:0;
+          opacity: 0.9;
+          background-image: url("Images/backgroundDesktop.jpg");
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+          /* background-attachment: fixed; */
+        }
+
+            .homeTextContainer {
+              /* border: solid; */
+              text-align: center;
+              margin: auto;
+              margin-top: 0;
+              color: white;
+            }
+
+                #byu {
+                  font-size: 60px;
+                  letter-spacing: 5px;
+                }
+
+                #department {
+                  margin-top: 0;
+                  font-size: 35px;
+                }
+
+            .homeButtonContainer {
+              /* border: solid; */
+              padding: auto;
+              margin-top: 150px;
+            }
+
+                .homeButtons {
+                  display: block;
+                  margin: auto;
+                  padding: 10px;
+                  width: 200px;
+                  font-size: 20px;
+                  border-radius: 5px;
+                  background-color: #f8f8f8;
+                  border-color: #e7e7e7;
+                  margin-bottom: 25px;
+                }
+
+            #footer {
+              text-align: center;
+
+            }
+
+                .navbar-text {
+                  float: none;
+                  padding: 0;
+                }
+
+        .otherPageContainer {
+          padding: 15%;
+          /* border: solid; */
+        }
+
+            #aboutText {
+              color: #555;
+              text-align: center;
+              text-transform: uppercase;
+              margin-bottom: 25px;
+            }
+
+            .thumbnail {
+              margin: auto;
+              height: 150px;
+              width: 200px;
+            }
+
+            .facultyName {
+              padding-top: 15px;
+              text-align: center;
+              font-size: 25px;
+            }
+
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    #navBar {
+      padding-left: 15%;
+      padding-right: 15%;
+    }
+
+    .homeButtons {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      width: 200px;
+      font-size: 20px;
+      border-radius: 5px;
+      background-color: #f8f8f8;
+      border-color: #e7e7e7;
+      margin-bottom: 25px;
+    }
+
+    #aboutButton {
+      float: left;
+      margin-left: 10%;
+    }
+    #contactButton {
+      float: right;
+      margin-right: 10%;
+    }
+
+    .otherPageContainer {
+      padding: 15%;
+      /* border: solid; */
+    }
+
+    .thumbnail {
+      height: 250px;
+      width: 300px;
+    }
+
+    .facultyName {
+      padding-top: 15px;
+      text-align: center;
+      font-size: 25px;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
+    .facultyText {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
+    #applyForm {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    /* For desktop: */
+    .homeButtonContainer {
+      /* border: solid; */
+      padding: auto;
+      margin-top: 50px;
+    }
+
+    .facultyName {
+      font-size: 25px;
+    }
+
+    .facultyText {
+      font-size: 20px;
+      margin-bottom: 50px;
+      font-weight: normal;
+    }
+
+    .otherPageContainer {
+      padding-top: 10%;
+      /* border: solid; */
+    }
+
+    .col-xs-12 {
+      padding: 5%;
+    }
+}
